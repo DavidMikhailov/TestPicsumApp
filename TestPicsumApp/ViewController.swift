@@ -8,13 +8,29 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UITabBarController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        createTabBar()
     }
-
-
+    
+    func createTabBar () {
+        
+        let randomVC = UINavigationController(rootViewController: RandomViewController())
+        randomVC.title = "Random"
+        randomVC.tabBarItem.image = UIImage(systemName: "photo")
+        
+        let favoritesVC = UINavigationController(rootViewController: FavoritesViewController())
+        favoritesVC.title = "Favorites"
+        favoritesVC.tabBarItem.image = UIImage(systemName: "star.fill")
+        
+        setViewControllers([randomVC, favoritesVC], animated: false)
+        modalPresentationStyle = .fullScreen
+    }
+    
 }
+
+
+
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A68F1212596122400D4BB52 /* RandomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A68F1202596122400D4BB52 /* RandomViewController.swift */; };
 		3A9CE3EB25932A75007DB767 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9CE3EA25932A75007DB767 /* AppDelegate.swift */; };
 		3A9CE3ED25932A75007DB767 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9CE3EC25932A75007DB767 /* SceneDelegate.swift */; };
 		3A9CE3EF25932A75007DB767 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9CE3EE25932A75007DB767 /* ViewController.swift */; };
@@ -14,6 +15,13 @@
 		3A9CE3F425932A79007DB767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A9CE3F325932A79007DB767 /* Assets.xcassets */; };
 		3A9CE3F725932A79007DB767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9CE3F525932A79007DB767 /* LaunchScreen.storyboard */; };
 		3A9CE40225932A79007DB767 /* TestPicsumAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9CE40125932A79007DB767 /* TestPicsumAppTests.swift */; };
+		3A9CE40D25932B9C007DB767 /* PicsumImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9CE40C25932B9C007DB767 /* PicsumImage.swift */; };
+		3A9CE41025932BD6007DB767 /* PicsumService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9CE40F25932BD6007DB767 /* PicsumService.swift */; };
+		FAAC4E3D25963CB900DD747F /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC4E3C25963CB900DD747F /* FavoritesViewController.swift */; };
+		FAAC4E452596409100DD747F /* RandomPictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC4E442596409100DD747F /* RandomPictureCell.swift */; };
+		FAAC4E4925978B8C00DD747F /* FavoritedPictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC4E4825978B8C00DD747F /* FavoritedPictureCell.swift */; };
+		FAAC4E512598CDF900DD747F /* ImageStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC4E502598CDF900DD747F /* ImageStorageService.swift */; };
+		FAAC4E592598D9B000DD747F /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC4E582598D9B000DD747F /* Notification.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A68F1202596122400D4BB52 /* RandomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomViewController.swift; sourceTree = "<group>"; };
 		3A9CE3E725932A75007DB767 /* TestPicsumApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPicsumApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9CE3EA25932A75007DB767 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A9CE3EC25932A75007DB767 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +47,13 @@
 		3A9CE3FD25932A79007DB767 /* TestPicsumAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPicsumAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9CE40125932A79007DB767 /* TestPicsumAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPicsumAppTests.swift; sourceTree = "<group>"; };
 		3A9CE40325932A79007DB767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A9CE40C25932B9C007DB767 /* PicsumImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicsumImage.swift; sourceTree = "<group>"; };
+		3A9CE40F25932BD6007DB767 /* PicsumService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicsumService.swift; sourceTree = "<group>"; };
+		FAAC4E3C25963CB900DD747F /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		FAAC4E442596409100DD747F /* RandomPictureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPictureCell.swift; sourceTree = "<group>"; };
+		FAAC4E4825978B8C00DD747F /* FavoritedPictureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritedPictureCell.swift; sourceTree = "<group>"; };
+		FAAC4E502598CDF900DD747F /* ImageStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStorageService.swift; sourceTree = "<group>"; };
+		FAAC4E582598D9B000DD747F /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +95,9 @@
 		3A9CE3E925932A75007DB767 /* TestPicsumApp */ = {
 			isa = PBXGroup;
 			children = (
+				3A9CE41125934DED007DB767 /* Extensions */,
+				3A9CE40E25932BA4007DB767 /* Service */,
+				FAAC4E3725963C3400DD747F /* PicturesControllers */,
 				3A9CE3EA25932A75007DB767 /* AppDelegate.swift */,
 				3A9CE3EC25932A75007DB767 /* SceneDelegate.swift */,
 				3A9CE3EE25932A75007DB767 /* ViewController.swift */,
@@ -97,6 +116,43 @@
 				3A9CE40325932A79007DB767 /* Info.plist */,
 			);
 			path = TestPicsumAppTests;
+			sourceTree = "<group>";
+		};
+		3A9CE40E25932BA4007DB767 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3A9CE41225934F8D007DB767 /* Models */,
+				3A9CE40F25932BD6007DB767 /* PicsumService.swift */,
+				FAAC4E502598CDF900DD747F /* ImageStorageService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		3A9CE41125934DED007DB767 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FAAC4E582598D9B000DD747F /* Notification.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3A9CE41225934F8D007DB767 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A9CE40C25932B9C007DB767 /* PicsumImage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FAAC4E3725963C3400DD747F /* PicturesControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A68F1202596122400D4BB52 /* RandomViewController.swift */,
+				FAAC4E442596409100DD747F /* RandomPictureCell.swift */,
+				FAAC4E3C25963CB900DD747F /* FavoritesViewController.swift */,
+				FAAC4E4825978B8C00DD747F /* FavoritedPictureCell.swift */,
+			);
+			path = PicturesControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +200,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = "Давид Михайлов";
 				TargetAttributes = {
 					3A9CE3E625932A75007DB767 = {
@@ -200,8 +256,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A68F1212596122400D4BB52 /* RandomViewController.swift in Sources */,
+				FAAC4E452596409100DD747F /* RandomPictureCell.swift in Sources */,
+				3A9CE40D25932B9C007DB767 /* PicsumImage.swift in Sources */,
+				FAAC4E512598CDF900DD747F /* ImageStorageService.swift in Sources */,
 				3A9CE3EF25932A75007DB767 /* ViewController.swift in Sources */,
+				FAAC4E3D25963CB900DD747F /* FavoritesViewController.swift in Sources */,
 				3A9CE3EB25932A75007DB767 /* AppDelegate.swift in Sources */,
+				FAAC4E592598D9B000DD747F /* Notification.swift in Sources */,
+				3A9CE41025932BD6007DB767 /* PicsumService.swift in Sources */,
+				FAAC4E4925978B8C00DD747F /* FavoritedPictureCell.swift in Sources */,
 				3A9CE3ED25932A75007DB767 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +334,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -330,6 +395,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
